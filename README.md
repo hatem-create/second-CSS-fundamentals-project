@@ -24,7 +24,8 @@ Users should be able to:
 
 ### Screenshot
 
-<img width="1400" height="1050" alt="image" src="https://github.com/user-attachments/assets/c40dcd08-a654-41e6-a6cc-5bb35f1c3618" />
+<img width="1400" height="1050" alt="image" src="https://github.com/user-attachments/assets/2477e22a-1a4f-4012-a02a-c389e17036b1" />
+
 
 
 
