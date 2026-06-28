@@ -3,10 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: "DM Sans", sans-serif;
   background-color: hsl(0, 0%, 96%);
 }
+
 .all {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -15,6 +17,7 @@ body {
   max-width: 1120px;
   margin: 70px auto;
 }
+
 .reviews {
   display: flex;
   grid-column: 2 / span 2;
@@ -30,6 +33,7 @@ body {
 .highlight-word1 {
   color: hsl(39, 100%, 71%);
 }
+
 .start {
   display: flex;
   padding-top: 40px;
@@ -38,7 +42,8 @@ body {
   padding-left: 35px;
   padding-right: 31px;
 }
-.adv {
+
+.benifits-of-ai {
   font-size: 60px;
   line-height: 0.5;
   font-weight: 500;
@@ -46,28 +51,35 @@ body {
 .make-italic {
   font-style: italic;
 }
+
 .stars-contanier {
   display: flex;
   flex-direction: column;
 }
+
 .stars {
   width: 50%;
   align-self: center;
   padding-bottom: 12px;
   padding-top: 40px;
 }
+
 .number-of-stars {
   font-size: 18px;
   font-weight: 400;
+
 }
+
 .content-manage-help {
   display: grid;
   grid-column: 1/2;
   grid-row: 1/7;
+
   width: 100%;
   border-radius: 7px;
   background-color: hsl(31, 66%, 93%);
 }
+
 .content-manage-help-text {
   padding-top: 80px;
   padding-left: 30px;
@@ -82,12 +94,14 @@ body {
   font-style: italic;
   color: hsl(256, 67%, 59%);
 }
+
 .post-button {
   width: 170px;
   margin-left: 40px;
   margin-bottom: 120px;
 }
-.faster {
+
+.audience-growth {
   display: flex;
   flex-direction: column;
   grid-column: 2/3;
@@ -96,24 +110,28 @@ body {
   background-color: hsl(0, 0%, 100%);
   padding-left: 20px;
 }
-.number-in-pre {
+
+.audience-growth-precentage {
   padding-top: 20px;
   font-size: 60px;
   font-style: bold;
   font-weight: 550;
 }
-.number-effect {
+
+.audience-growth-text {
   font-size: 20px;
   font-weight: 400;
   padding-top: 10px;
   line-height: 0.8;
   margin-bottom: 0px;
 }
+
 .profiles {
   width: 100%;
   max-width: 200px;
   padding-top: 35px;
 }
+
 .manage {
   display: flex;
   flex-direction: column;
@@ -123,6 +141,7 @@ body {
   border-radius: 7px;
   background-color: hsl(0, 0%, 100%);
 }
+
 .manage-text {
   max-width: 10ch;
   font-size: 35px;
@@ -133,11 +152,13 @@ body {
   letter-spacing: -0.05em;
   padding-bottom: 20px;
 }
+
 .accounts-example {
   width: 125%;
   padding-top: 10px;
   transform: translateX(20px);
 }
+
 .posting-schedule {
   display: flex;
   flex-direction: column;
@@ -148,6 +169,7 @@ body {
   background-color: hsl(39, 100%, 71%);
   padding-left: 30px;
 }
+
 .posting-schedule-text {
   padding-top: 30px;
   font-size: 35px;
@@ -155,13 +177,15 @@ body {
   letter-spacing: 0.2;
   font-weight: 500;
 }
+
 .posting-schedule-image {
   transform: translateY(20px);
   width: 100%;
   max-width: 230px;
   padding-right: 30px;
 }
-.ai-av {
+
+.ai-container {
   display: flex;
   flex-direction: column;
   grid-column: 1/2;
@@ -169,6 +193,7 @@ body {
   border-radius: 7px;
   background-color: hsl(39, 100%, 71%);
 }
+
 .ai {
   max-width: 260px;
   width: 100%;
@@ -177,6 +202,7 @@ body {
   padding-right: 10px;
   padding-bottom: 20px;
 }
+
 .move-wave {
   padding-top: 20px;
   padding-left: 20px;
@@ -187,6 +213,7 @@ body {
   letter-spacing: -0.05em;
   padding-left: 20px;
 }
+
 .optimisation {
   display: flex;
   flex-direction: column;
@@ -196,6 +223,7 @@ body {
   border-radius: 7px;
   background-color: hsl(254, 88%, 90%);
 }
+
 .optimisation-text {
   padding-left: 30px;
   padding-top: 50px;
@@ -204,11 +232,13 @@ body {
   letter-spacing: -0.05em;
   line-height: 0.9;
 }
+
 .best-times {
   padding-top: 20px;
   width: 150%;
   padding-left: 30px;
 }
+
 .optimisation-para {
   padding-left: 30px;
   padding-top: 20px;
@@ -217,7 +247,8 @@ body {
   max-width: 18ch;
   letter-spacing: -0.05px;
 }
-.pons {
+
+.grow {
   display: flex;
   align-items: center;
   gap: 20px;
@@ -227,13 +258,15 @@ body {
   grid-column: 3/5;
   grid-row: 10/14;
 }
-.grow {
-  width: 45%;
-  align-self: flex-start;
+
+.grow-image{
+    width: 45%;
+    align-self: flex-start;
 }
-.pons-text {
-  color: hsl(0, 0%, 100%);
-  font-weight: 500;
-  font-size: 40px;
-  line-height: 0.9;
+
+.grow-text{
+    color: hsl(0, 0%, 100%);
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 0.9;
 }
